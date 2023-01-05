@@ -14,6 +14,7 @@
   font-size: 20px;
   border: none;
   padding: 18px 35px;
+  display: inline-block;
 }
 .header {
   background-image: url("../images/header_bg.png"),
@@ -131,4 +132,77 @@ main {
 }
 .skill-item p {
   color: #757575;
+}
+
+/* resume-section */
+
+.resume-section {
+  padding: 130px 0px;
+}
+.resume-section button {
+  text-align: center;
+}
+.resume-boxes {
+  display: flex;
+}
+
+.resume-box {
+  padding: 20px 40px;
+}
+.resume-box h3 {
+  margin-bottom: 10px;
+}
+.box-item {
+  padding: 30px 0px;
+  border-bottom: #aaaaaa 2px solid;
+}
+.box-item h4 {
+  font-weight: 700;
+}
+.box-item span {
+  margin: 8px 0px;
+  display: block;
+  font-weight: 400;
+}
+.box-item p {
+  font-size: 14px;
+  color: #757575;
+}
+.align-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/*footer  */
+.footer {
+  background-color: #fff8f3;
+  padding: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  padding: 30px;
+}
+.footer-item > h3 {
+  text-align: left;
+}
+.footer-item p {
+  margin: 10px;
+  color: #757575;
+}
+.footer-item .icon-box {
+}
+.footer-item .icon-box img {
+  margin: 5px;
+}
+.footer-item form {
+}
+.footer-item form .input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  color: #757575;
+  padding: 10px;
 }
